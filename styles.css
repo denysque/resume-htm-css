@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family:'PT Serif', serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #F8F8FF;
+    color: #000000;
+}
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+    a:active {
+        color:#FFDAB9;
+
+    }
+
+    a:visited {
+        color: grey;
+    }
+
+.card {
+    border-radius: 20px;
+    padding: 15px 20 px;
+    margin-bottom: 20px;
+}
+.bg-yellow {
+    background: #FFDAB9;
+}
+.bg-green {
+    background: #FFEFD5;
+}
+.bg-green2 {
+    background: #FFE4B5;
+}
+.bg-projects {
+    background: #FFE4E1;
+}
+.card2 h2 {
+    margin-bottom: 10px;
+}
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
